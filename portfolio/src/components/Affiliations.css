@@ -1,0 +1,47 @@
+.affiliations-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.affiliation-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 26px;
+}
+
+.affiliation-card h3 {
+  font-size: 19px;
+  margin-bottom: 6px;
+}
+
+.affiliation-card__role {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--sky-ink);
+  background: var(--sky-soft);
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+.affiliation-card p {
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.affiliation-card--placeholder {
+  background: transparent;
+  border: 2px dashed var(--line);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.affiliation-card--placeholder h3 {
+  color: var(--ink-faint);
+}
