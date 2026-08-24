@@ -1,0 +1,13 @@
+.about__body {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 68ch;
+  font-size: 17.5px;
+  color: var(--ink-soft);
+}
+
+.about__body p:first-child {
+  color: var(--ink);
+  font-size: 19px;
+}
