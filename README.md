@@ -19,7 +19,7 @@ Everything below lives in **one file**: `src/data/content.js`. You shouldn't nee
    linkedin: "https://linkedin.com/in/your-profile",
    ```
 
-3. **Project links** — once DonorConnect / OppHub have a repo or live URL, fill in `links.repo` / `links.live` for each project.
+3. **Project links** — fill in `links.repo` / `links.live` for each project.
 
 4. **Affiliations / achievements** — add new entries by copying the shape of an existing object in the `affiliations` or `achievements` arrays.
 
